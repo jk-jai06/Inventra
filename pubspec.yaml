@@ -1,0 +1,60 @@
+name: inventra
+description: INVENTRA — AI-Assisted Smart Inventory and GST Billing System for Retail Shops.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Firebase ────────────────────────────────────────────────────────────────
+  # All three must come from the same Firebase SDK generation.
+  # firebase_core 3.x is required by firebase_auth 5.x and cloud_firestore 5.x
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+
+  # ── State Management ────────────────────────────────────────────────────────
+  # Using Provider + ChangeNotifier. Riverpod removed.
+  provider: ^6.1.2
+
+  # ── Charts ──────────────────────────────────────────────────────────────────
+  # fl_chart replaces the abandoned charts_flutter package
+  fl_chart: ^0.69.0
+
+  # ── Networking ──────────────────────────────────────────────────────────────
+  http: ^1.2.2
+
+  # ── Utilities ───────────────────────────────────────────────────────────────
+  intl: ^0.19.0          # Number/date formatting
+  uuid: ^4.5.1           # Invoice/document ID generation
+  flutter_svg: ^2.0.10   # SVG icon support
+  google_fonts: ^6.2.1   # Inter typography
+
+  # ── Localisation ────────────────────────────────────────────────────────────
+  flutter_localizations:
+    sdk: flutter
+  firebase_storage: ^12.4.10
+  firebase_ai: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icon/inventra_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/inventra_icon.png"
+
+flutter:
+  uses-material-design: true

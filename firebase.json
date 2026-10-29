@@ -1,0 +1,16 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "inventra-retail-ai",
+          "appId": "1:330359910762:android:605d62ebe7a216b510b513",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "../firebase/firestore.rules"
+  }
+}

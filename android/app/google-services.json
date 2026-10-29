@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330359910762",
+    "project_id": "inventra-retail-ai",
+    "storage_bucket": "inventra-retail-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330359910762:android:605d62ebe7a216b510b513",
+        "android_client_info": {
+          "package_name": "com.example.inventra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnCigq_OctgkpxGy18PwdwWNQdbejYnGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
